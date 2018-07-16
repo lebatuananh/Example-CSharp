@@ -7,7 +7,7 @@ namespace RecursionExample
         public static void Main(string[] args)
         {
            Console.WriteLine(Factorial(5));
-            Console.WriteLine(Fibonacci(5));
+           Console.WriteLine(Fibonacci(5));
         }
 
         private static int Factorial(int n)
