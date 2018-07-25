@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckLeapYear", "CheckLeapY
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{817627B6-3A53-40A0-83FA-198202012DE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureDI", "StructureDI\StructureDI.csproj", "{94D9BA3F-3D39-46D2-A546-E2926C7175B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{817627B6-3A53-40A0-83FA-198202012DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{817627B6-3A53-40A0-83FA-198202012DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{817627B6-3A53-40A0-83FA-198202012DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D9BA3F-3D39-46D2-A546-E2926C7175B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D9BA3F-3D39-46D2-A546-E2926C7175B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D9BA3F-3D39-46D2-A546-E2926C7175B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D9BA3F-3D39-46D2-A546-E2926C7175B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

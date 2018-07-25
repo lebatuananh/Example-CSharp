@@ -1,12 +1,11 @@
-﻿using System;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
 namespace DependencyInjection
 {
     public class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //setup our DI
             var serviceProvider = new ServiceCollection()
