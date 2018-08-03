@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureDI", "StructureDI\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous", "Asynchronous\Asynchronous.csproj", "{50EF60A1-39C3-4B4E-9D73-2007883C1D6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagedAlgorithm", "PagedAlgorithm\PagedAlgorithm.csproj", "{BC40681E-2E04-40F2-8362-8E60C6BFD8EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{50EF60A1-39C3-4B4E-9D73-2007883C1D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50EF60A1-39C3-4B4E-9D73-2007883C1D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50EF60A1-39C3-4B4E-9D73-2007883C1D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC40681E-2E04-40F2-8362-8E60C6BFD8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC40681E-2E04-40F2-8362-8E60C6BFD8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC40681E-2E04-40F2-8362-8E60C6BFD8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC40681E-2E04-40F2-8362-8E60C6BFD8EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
