@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous", "Asynchronou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagedAlgorithm", "PagedAlgorithm\PagedAlgorithm.csproj", "{BC40681E-2E04-40F2-8362-8E60C6BFD8EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectMySQL", "ConnectMySQL\ConnectMySQL.csproj", "{B08BA394-761F-4B5B-9296-38693F0E48C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{BC40681E-2E04-40F2-8362-8E60C6BFD8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC40681E-2E04-40F2-8362-8E60C6BFD8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC40681E-2E04-40F2-8362-8E60C6BFD8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B08BA394-761F-4B5B-9296-38693F0E48C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B08BA394-761F-4B5B-9296-38693F0E48C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B08BA394-761F-4B5B-9296-38693F0E48C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B08BA394-761F-4B5B-9296-38693F0E48C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
