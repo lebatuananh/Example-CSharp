@@ -1,12 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionExample", "RecursionExample\RecursionExample.csproj", "{EF6B4C69-0A2E-402A-8C9A-79C4B167C0D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidityAndReference", "ValidityAndReference\ValidityAndReference.csproj", "{4155BC39-FF49-472B-8E2F-46D7F52BC86E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckLeapYear", "CheckLeapYear\CheckLeapYear.csproj", "{2278EA96-FAB4-476B-8E64-2372FC873DD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{817627B6-3A53-40A0-83FA-198202012DE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{817627B6-3A53-40A0-83FA-198202012DE2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureDI", "StructureDI\StructureDI.csproj", "{94D9BA3F-3D39-46D2-A546-E2926C7175B9}"
 EndProject
@@ -14,7 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous", "Asynchronou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagedAlgorithm", "PagedAlgorithm\PagedAlgorithm.csproj", "{BC40681E-2E04-40F2-8362-8E60C6BFD8EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectMySQL", "ConnectMySQL\ConnectMySQL.csproj", "{B08BA394-761F-4B5B-9296-38693F0E48C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectMySQL", "ConnectMySQL\ConnectMySQL.csproj", "{B08BA394-761F-4B5B-9296-38693F0E48C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication", "Authentication\Authentication.csproj", "{50C6B061-D0B1-4ECE-8B56-432C1DD04689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.WebAPI", "Authentication.WebAPI\Authentication.WebAPI.csproj", "{30578F08-4095-4F70-AE0A-E6331E2C5788}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,5 +61,19 @@ Global
 		{B08BA394-761F-4B5B-9296-38693F0E48C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B08BA394-761F-4B5B-9296-38693F0E48C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B08BA394-761F-4B5B-9296-38693F0E48C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C6B061-D0B1-4ECE-8B56-432C1DD04689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C6B061-D0B1-4ECE-8B56-432C1DD04689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C6B061-D0B1-4ECE-8B56-432C1DD04689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C6B061-D0B1-4ECE-8B56-432C1DD04689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30578F08-4095-4F70-AE0A-E6331E2C5788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30578F08-4095-4F70-AE0A-E6331E2C5788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30578F08-4095-4F70-AE0A-E6331E2C5788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30578F08-4095-4F70-AE0A-E6331E2C5788}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4782E86-92FB-4F57-BDC4-22C849944E3B}
 	EndGlobalSection
 EndGlobal
