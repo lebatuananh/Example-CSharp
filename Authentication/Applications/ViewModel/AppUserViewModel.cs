@@ -8,7 +8,7 @@ namespace Authentication.Applications.ViewModel
     {
         public AppUserViewModel()
         {
-            Roles = new List<AppRoleViewModel>();
+            Roles = new List<string>();
         }
 
         public Guid Id { set; get; }
@@ -25,6 +25,6 @@ namespace Authentication.Applications.ViewModel
         public DateTime DateCreated { get; set; }
         public DateTime ModifiedDate { get; set; }
         public bool IsDelete { get; set; }
-        public ICollection<AppRoleViewModel> Roles { get; set; }
+        public ICollection<string> Roles { get; set; }
     }
 }

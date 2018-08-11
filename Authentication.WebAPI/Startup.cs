@@ -100,6 +100,8 @@ namespace Authentication.WebAPI
             services.AddScoped<IMapper>(sp => new Mapper(sp.GetRequiredService<AutoMapper.IConfigurationProvider>(), sp.GetService));
 
             services.AddTransient<IPersonService, PersonServices>();
+            services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IRoleService, RoleService>();
 
             //Add application services.
             services.AddTransient(typeof(IUnitOfWork), typeof(EFUnitOfWork));
@@ -110,7 +112,7 @@ namespace Authentication.WebAPI
                 .AddJsonOptions(options =>
                 {
                     options.SerializerSettings.Formatting = Formatting.Indented;
-                }); ;
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

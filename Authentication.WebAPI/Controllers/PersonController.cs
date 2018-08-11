@@ -10,10 +10,21 @@ using System.Linq;
 
 namespace Authentication.WebAPI.Controllers
 {
+    using Newtonsoft.Json;
+
+    /// <summary>
+    /// The person controller.
+    /// </summary>
     public class PersonController : ApiController
     {
         private readonly IPersonService _personService;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="PersonController"/> class.
+        /// </summary>
+        /// <param name="personService">
+        /// The person service.
+        /// </param>
         public PersonController(IPersonService personService)
         {
             _personService = personService;
@@ -101,6 +112,29 @@ namespace Authentication.WebAPI.Controllers
                 _personService.Save();
             }
             return new OkObjectResult(id);
+        }
+        /// <summary>
+        /// This is delete multiple data
+        /// </summary>
+        /// <param name="checkedPersons"></param>
+        /// <returns></returns>
+        [HttpDelete]
+        public IActionResult DeleteMulti(string checkedPersons)
+        {
+            if (!ModelState.IsValid)
+            {
+                return new BadRequestObjectResult(ModelState);
+            }
+            else
+            {
+                var listPerson = JsonConvert.DeserializeObject<List<Guid>>((checkedPersons));
+                foreach (var item in listPerson)
+                {
+                    this._personService.Delete(item);
+                }
+                this._personService.Save();
+                return new OkResult();
+            }
         }
     }
 }
